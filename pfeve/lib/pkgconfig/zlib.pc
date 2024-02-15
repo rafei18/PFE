@@ -1,0 +1,13 @@
+prefix=/Users/tchouar/Downloads/tr/pfeve
+exec_prefix=/Users/tchouar/Downloads/tr/pfeve
+libdir=/Users/tchouar/Downloads/tr/pfeve/lib
+sharedlibdir=/Users/tchouar/Downloads/tr/pfeve/lib
+includedir=/Users/tchouar/Downloads/tr/pfeve/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

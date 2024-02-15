@@ -1,0 +1,10 @@
+numpy
+pandas
+pulp
+rasterio
+earthpy
+scikit-learn
+matplotlib
+scipy
+seaborn
+plotly
