@@ -10,6 +10,6 @@ The idea is to create a soft voting ensemble learning set, where multiple classi
     - Visualization of the different spectral bands. 
     - Preprocessing: Normalization of the data.
     - Model training: In this step, multiple models are trained while performing hyperparameter tuning using "nested cross-validation." Finally, the best parameters are used to construct the ensemble learning using weights calculated previously.
-#
+
 ## 2. Aquileria_italy dataset with no ground truth:
     - For this scenario, we utilized unsupervised learning with K-means to generate a ground truth. We employed the elbow method and silhouette score to determine the optimal value of K.
